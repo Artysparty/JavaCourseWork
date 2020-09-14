@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="347.0" prefWidth="608.0"
+            style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="sample.controllers.HistoryScreenController">
+    <TableView fx:id="tableViewHistory" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="583.0">
+        <columns>
+            <TableColumn fx:id="columnId" prefWidth="75.0" text="id"/>
+            <TableColumn fx:id="columnApartmentName" prefWidth="75.0" text="apartmentname"/>
+            <TableColumn fx:id="columnFirstName" prefWidth="75.0" text="firstname"/>
+            <TableColumn fx:id="columnLastName" prefWidth="75.0" text="lastname"/>
+            <TableColumn fx:id="columnUsername" prefWidth="75.0" text="username"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+    <Button layoutX="14.0" layoutY="221.0" onAction="#onBackClicked" text="Back"/>
+</AnchorPane>

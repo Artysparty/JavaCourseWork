@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="347.0" prefWidth="608.0" style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LuxeApartmentController">
+   <children>
+      <AnchorPane layoutY="67.0" prefHeight="333.0" prefWidth="608.0" style="-fx-background-color: #FFEFD5;">
+         <children>
+            <Button fx:id="okluxeButton" layoutX="278.0" layoutY="242.0" mnemonicParsing="false" onAction="#okluxeButtonClick" prefHeight="27.0" prefWidth="52.0" style="-fx-background-color: #FFE4C4;" text="Ok" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelYourOrder" layoutX="14.0" layoutY="14.0" prefHeight="216.0" prefWidth="585.0" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="260.0" layoutY="14.0" text="Your order:" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="20.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="130.0" layoutY="25.0" text="You have chosen luxury apartment" textFill="SADDLEBROWN">
+         <font>
+            <Font name="Bell MT Italic" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

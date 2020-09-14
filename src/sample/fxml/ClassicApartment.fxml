@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="347.0" prefWidth="608.0" style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ClassicApartmentController">
+   <children>
+      <AnchorPane layoutY="67.0" prefHeight="334.0" prefWidth="608.0" style="-fx-background-color: #FFEFD5;">
+         <children>
+            <Button fx:id="okClassicApartment" layoutX="279.0" layoutY="223.0" mnemonicParsing="false" onAction="#onOkClassicApartmentClick" prefHeight="26.0" prefWidth="49.0" style="-fx-background-color: #FFE4C4;" text="Ok" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="14.0" />
+               </font></Button>
+            <Label fx:id="labelYourOrder" layoutX="14.0" layoutY="45.0" prefHeight="172.0" prefWidth="591.0" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="LabelOrderInfo" layoutX="212.0" layoutY="27.0" />
+            <Label layoutX="267.0" layoutY="16.0" text="Your order:" textFill="SADDLEBROWN">
+               <font>
+                  <Font name="Bell MT Italic" size="17.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="148.0" prefHeight="68.0" prefWidth="312.0" text="You have chosen classic apartment" textFill="SADDLEBROWN">
+         <font>
+            <Font name="Bell MT Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

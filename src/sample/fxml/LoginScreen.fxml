@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="347.0" prefWidth="608.0"
+            style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="sample.controllers.LoginScreenController">
+    <AnchorPane layoutY="65.0" prefHeight="302.0" prefWidth="608.0" style="-fx-background-color: #FFEFD5;">
+        <children>
+            <TextField fx:id="textFieldUsername" layoutX="220.0" layoutY="104.0" promptText="Username"/>
+            <TextField fx:id="textFieldPassword" layoutX="220.0" layoutY="148.0"
+                       onKeyPressed="#onPasswordFieldKeyPressed" promptText="Password"/>
+            <Button fx:id="buttonJoin" layoutX="272.0" layoutY="193.0" mnemonicParsing="false" onAction="#onJoinClick"
+                    style="-fx-background-color: #FFE4C4;" text="Join" textFill="SADDLEBROWN">
+                <font>
+                    <Font name="Bell MT Italic" size="15.0"/>
+                </font>
+            </Button>
+            <Button fx:id="buttonRegister" layoutX="437.0" layoutY="221.0" mnemonicParsing="false"
+                    onAction="#onRegisterClick" prefHeight="26.0" prefWidth="127.0"
+                    style="-fx-background-color: #FFE4C4;" text="Click To Register" textFill="SADDLEBROWN"/>
+            <Label layoutX="415.0" layoutY="197.0" text="First time here? Register now!" textFill="SADDLEBROWN">
+                <font>
+                    <Font name="Bell MT Italic" size="15.0"/>
+                </font>
+            </Label>
+            <Label layoutX="241.0" layoutY="64.0" text="Please, log in!" textFill="SADDLEBROWN">
+                <font>
+                    <Font name="Bell MT Italic" size="20.0"/>
+                </font>
+            </Label>
+            <Button layoutX="437.0" layoutY="257.0" mnemonicParsing="false"
+                    onAction="#onHistoryClick" prefHeight="26.0" prefWidth="127.0"
+                    style="-fx-background-color: #FFE4C4;" text="Show orders history" textFill="SADDLEBROWN"/>
+        </children>
+    </AnchorPane>
+    <Label layoutX="138.0" layoutY="14.0" text="It's Hotel chooser!" textFill="SADDLEBROWN">
+        <font>
+            <Font name="Bell MT Italic" size="48.0"/>
+        </font>
+    </Label>
+</AnchorPane>

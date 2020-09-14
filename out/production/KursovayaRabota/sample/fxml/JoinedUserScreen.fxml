@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="347.0" prefWidth="608.0" style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.JoinedUserScreenController">
+    <children>
+        <Label layoutX="114.0" layoutY="14.0" prefHeight="51.0" prefWidth="371.0" style="-fx-background-color: #FFE4C4;" text="Please, choose the hotel" textFill="SADDLEBROWN">
+            <font>
+                <Font name="Bell MT Italic" size="43.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="-1.0" layoutY="67.0" prefHeight="332.0" prefWidth="608.0" style="-fx-background-color: #FFEFD5;">
+            <children>
+                <ImageView fx:id="ImageButtonHotel" fitHeight="105.0" fitWidth="82.0" layoutX="148.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/icons8-отель-4-звезды-100.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="ImageButtonHostel" fitHeight="68.0" fitWidth="63.0" layoutX="392.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/icons8-детская-80.png" />
+                    </image>
+                </ImageView>
+            <Button fx:id="buttonLuxe" layoutX="159.0" layoutY="148.0" mnemonicParsing="false" onAction="#onLuxeButtonCkick" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #FFE4C4;" text="Luxe" textFill="SADDLEBROWN" />
+            <Button fx:id="ClassicButton" layoutX="394.0" layoutY="148.0" mnemonicParsing="false" onAction="#onClassicButtonCkick" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #FFE4C4;" text="Classic" textFill="SADDLEBROWN" />
+            <Button fx:id="changeAccountButon" layoutX="56.0" layoutY="284.0" mnemonicParsing="false" onAction="#onChangeAccountButtonClick" style="-fx-background-color: #FFE4C4;" text="Сhange account" textFill="SADDLEBROWN" />
+            <Button fx:id="deleteAccountButton" layoutX="455.0" layoutY="284.0" mnemonicParsing="false" onAction="#onDeleteAccountButtonClick" style="-fx-background-color: #FFE4C4;" text="Delete account" textFill="SADDLEBROWN" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
